@@ -1,0 +1,283 @@
+.contact-section {
+    padding: 2rem;
+    background-color: #f0f8ff;
+    /* Light blue for a more vibrant look */
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #222;
+    /* Darker shade for contrast */
+    margin-bottom: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.contact-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.contact-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 2rem 1rem;
+    width: 320px;
+    text-align: center;
+    /* Center-align text and elements */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Verdana', sans-serif;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: #007BFF;
+}
+
+.contact-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 1rem;
+}
+
+.contact-card h3 {
+    font-size: 1.8rem;
+    color: #007BFF;
+    margin-bottom: 0.5rem;
+    font-family: 'Georgia', serif;
+}
+
+.contact-card p {
+    font-size: 1rem;
+    color: #444;
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+.contact-card strong {
+    color: #111;
+    font-size: 1.2rem;
+}
+
+/* Add responsiveness */
+@media screen and (max-width: 768px) {
+    .contact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-card {
+        width: 90%;
+    }
+}
+
+/* -----------------------------Email us ----------------------------------------------------*/
+/* General form styling */
+.contact-form {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.contact-form h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-form h2 {
+
+    color: black;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"]:active {
+    background-color: #3e8e41;
+}
+
+/* Name input fields styling */
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-fields input {
+    width: 48%;
+}
+
+/* Increase the size of the Form Section */
+.contact-form form {
+    flex: 1 1 70%;
+    /* This will make the form section take 70% of the space */
+}
+
+/* Working hours section styling */
+.working-hours {
+    flex: 0 0 300px;
+    /* Fixed width for working hours */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.working-hours h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Responsiveness: Stack elements on small screens */
+@media (max-width: 768px) {
+    .contact-form {
+        flex-direction: column;
+        /* Stack items vertically on smaller screens */
+    }
+
+    .working-hours {
+        margin-top: 20px;
+        /* Add space above working hours when stacked */
+        flex: 1 1 100%;
+        /* Take full width on small screens */
+    }
+
+    /* Form section takes full width on smaller screens */
+    .contact-form form {
+        flex: 1 1 100%;
+    }
+}
+
+/* ---------------------map------------------------------------------------------- */
+/* Google Map styling */
+.map-container {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.map-container h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    iframe {
+        height: 300px;
+        /* Adjust map height for smaller screens */
+    }
+}
+/*  */

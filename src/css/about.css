@@ -1,0 +1,246 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    /* Align items vertically centered */
+    justify-content: space-between;
+    /* Adds space between image and text */
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-image {
+    width: 100%;
+    /* Ensure the container spans the full width */
+    margin-bottom: 20px;
+    /* Adds space between images */
+}
+
+.about-image img {
+    max-width: 100%;
+    /* Ensure images scale responsively */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Ensure each image behaves like a block element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+}
+
+
+
+.about-text {
+    max-width: 700px;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    color: #E62E2E;
+    /* Custom red color */
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+        /* Stacks image and text vertically */
+        align-items: center;
+    }
+
+    .about-image {
+        margin-bottom: 20px;
+    }
+}
+
+/* About Page CSS */
+
+.about-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner Section */
+.about-banner {
+    background-color: #3b2c64;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.about-banner h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.about-banner p {
+    margin: 10px 0 0;
+    color: #97ff5d;
+}
+
+/* Content Section */
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-text span {
+    color: #e53e3e;
+}
+
+.about-text p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* ------------------------------------ Key Person --------------------------------------------------- */
+.key-persons-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: gray;
+}
+
+.key-persons-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.key-persons-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.person-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.person-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.person-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.person-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .key-persons-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------------------- Company Pofile --------------------------------------- */
+.company-profile-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #faf8ff;
+}
+
+.company-profile-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.company-profile-section p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.profile-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.profile-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-item hr {
+    margin: 20px auto;
+    width: 40px;
+    border: 0;
+    border-top: 2px solid #d64e4e;
+}
+
+.profile-item .decorative {
+    margin-top: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.profile-item:hover {
+    transform: translateY(-10px);
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+    }
+}

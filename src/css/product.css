@@ -1,0 +1,265 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.about-banner {
+    background-color: #3b2c64;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-banner h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.product-page h1 {
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+
+.product-page {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Content container */
+.content-container {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Onion Product Container */
+.onion-product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual Onion Card */
+.onion-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 16px;
+    width: 300px;
+    text-align: center;
+    background-color: #f9fcff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.onion-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Onion Image */
+.onion-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Separator */
+.separator {
+    width: 70px;
+    margin: 10px auto;
+    border: 2px solid #28a745;
+    /* Green separator */
+}
+
+/* Card Title */
+h3 {
+    margin-top: 12px;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Card Description */
+p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .onion-product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .onion-card {
+        width: 90%;
+    }
+}
+
+/* ---------------------------------------------------------Packing info----------------------------------------------------------- */
+.packing-container {
+    display: flex;
+    align-items: center;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
+    flex-direction: row;
+    /* Ensures image and text are side by side */
+    background-color: #4b266e;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    gap: 20px;
+    margin: 20px 30px;
+}
+
+.content-section {
+    text-align: center;
+    /* Centers all text in the section */
+}
+
+.packing-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.content-section {
+    flex: 2;
+}
+
+.content-section h2 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-right: 600px;
+    line-height: 1.6;
+}
+
+.content-section p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1.6;
+    color: white;
+}
+
+/* ----------------------------benifit-------------------------------------- */
+.benefits-container {
+    display: flex;
+    background-color: #333;
+    /* Dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+    /* Vertically center content */
+    justify-content: center;
+    /* Horizontally center content */
+    text-align: center;
+    /* Ensure text is centered */
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-section {
+    flex: 1;
+    max-width: 800px;
+    /* Optional: Limit the width for better readability */
+}
+
+.content-section h2 {
+
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-left: auto;
+    /* Center the separator */
+    margin-right: auto;
+}
+
+.separator {
+    border-top: 2px solid #fff;
+    margin: 10px 0;
+    width: 50%;
+    margin-left: auto;
+    /* Center the separator */
+    margin-right: auto;
+}
+
+.content-section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* ---------------------------------------------Ginger------------------------------------------------ */
+.ginger-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8fbff;
+    /* Light blue background */
+}
+
+.ginger-card {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    /* White background for the card */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for elevation */
+    padding: 20px;
+    max-width: 900px;
+    gap: 20px;
+}
+
+.ginger-image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ginger-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.ginger-content-section {
+    flex: 2;
+    text-align: left;
+    color: #333333;
+    /* Dark text for readability */
+}
+
+.ginger-content-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.underline {
+    width: 50px;
+    height: 3px;
+    background-color: #FFA500;
+    /* Orange underline to reflect ginger theme */
+    margin-bottom: 15px;
+}
+
+.ginger-content-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 16px;
+}
