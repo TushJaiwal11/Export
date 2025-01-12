@@ -8,7 +8,7 @@ import Certificates from "./pages/Certificates";
 import Contact from "./pages/Contact";
 import Product1 from "./pages/onion";
 import Product2 from "./pages/ginger";
-import Product3 from "./pages/maize";
+import Product3 from "./pages/garlic";
 import CircleLoader from "react-spinners/CircleLoader";
 import "./css/app.css";
 
@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false); // After 3 seconds, set loading to false
-    }, 3000);
+    }, 2000);
   }, []);
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,7 +33,7 @@ function App() {
   };
 
   const openWhatsApp = () => {
-    const phoneNumber = "+917219696844"; // Replace with your phone number
+    const phoneNumber = "+917028552927"; // Replace with your phone number
     const message = "Hello, I need assistance! I am interested in your product";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappURL, "_blank");
@@ -82,8 +82,8 @@ function App() {
                         <Link to="/ginger" onClick={() => setMenuOpen(false)}>
                           Ginger
                         </Link>
-                        <Link to="/maize" onClick={() => setMenuOpen(false)}>
-                          Maize
+                        <Link to="/garlic" onClick={() => setMenuOpen(false)}>
+                          Garlic
                         </Link>
                       </div>
                     )}
@@ -103,7 +103,7 @@ function App() {
                       Contact Us
                     </Link>
                   </li>
-                  <li>📞 +91 70285 52927  (Mr. Tushar Jaiwal)</li>
+                  <li>📞 +91 70285 52927  (Mr. Akshay R. Ghorpade)</li>
                 </ul>
               </nav>
             </header>
@@ -115,7 +115,7 @@ function App() {
               <Route path="/products" element={<Products />} />
               <Route path="/onion" element={<Product1 />} />
               <Route path="/ginger" element={<Product2 />} />
-              <Route path="/maize" element={<Product3 />} />
+              <Route path="/garlic" element={<Product3 />} />
               <Route path="/services" element={<Services />} />
               <Route path="/certificates" element={<Certificates />} />
               <Route path="/contact" element={<Contact />} />
@@ -145,7 +145,7 @@ function App() {
                     Smashan maroti road, Kailas Nagar,Ch Samhaji Nagar(Aurangabad) - 431001
                   </p>
                   <p>📞 +91 70285 52927 / 93222 51291</p>
-                  <p> (Mr. Tushar Jaiwal)</p>
+                  <p> (Mr. Akshay R. Ghorpade)</p>
                   <p>📧 supermoontraders11@gmail.com</p>
                 </div>
                 <div className="footer-section">
@@ -156,7 +156,7 @@ function App() {
                     431001,
                   </p>
                   <p>📞 +91 70285 52927 /  93222 51291 </p>
-                  <p> (Mr. Tushar Jaiwal)</p>
+                  <p> (Mr. Akshay R. Ghorpade)</p>
                   <p>📧 supermoontraders11@gmail.com</p>
                 </div>
 
@@ -188,7 +188,7 @@ function App() {
                       <Link to="/garlic">Garlic</Link>
                     </li>
                     <li>
-                      <Link to="/maize">Maize</Link>
+                      <Link to="/ginger">Ginger</Link>
                     </li>
                     <li>
                       <Link to="/services">Services</Link>
@@ -200,22 +200,22 @@ function App() {
                 </div>
               </div>
               <div className="social-icons">
-                <a href="https://www.facebook.com/tushar.jaiwal.5">
+                <a href="#">
                   <img src="/logo/facebook.png" alt="Facebook" />
                 </a>
-                <a href="https://www.linkedin.com/in/tushar-jaiwal-680919229/">
+                <a href="#">
                   <img src="/logo/linkdin.png" alt="LinkedIn" />
                 </a>
-                <a href="https://www.instagram.com/tush_jaiwal_11/">
+                <a href="https://www.instagram.com/supermoontraders/?igsh=dDE1bm1taTkybms5">
                   <img src="/logo/instagram.png" alt="Instagram" />
                 </a>
-                <a href="https://plus.google.com">
+                <a href="#">
                   <img src="/logo/google.png" alt="Google Plus" />
                 </a>
               </div>
 
               <div className="clv_copyright_wrapper">
-                <p>copyright © 2022-23 Supermoon Traders all rights reserved.</p>
+                <p>copyright © 2024-25 Supermoon Traders all rights reserved.</p>
               </div>
             </footer>
           </div>

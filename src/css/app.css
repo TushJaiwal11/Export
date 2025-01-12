@@ -311,25 +311,38 @@
   margin-bottom: 20px;
 }
 
+/* slider */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/*  */
+.slider {
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
 
 /* Slides Wrapper */
-/*  */
-
-
+.slides {
+  display: flex;
+  animation: slide 9s infinite;
+}
 
 /* Individual Slide */
 .slide {
   flex: 0 0 100%;
-
   margin: 0;
   padding: 0;
 }
 
 .slide img {
   width: 100%;
-  height: auto;
+  height: 50%;
   display: block;
   border-radius: 10px;
 }
@@ -340,14 +353,44 @@
     transform: translateX(0%);
   }
 
-  33% {
+  25% {
     transform: translateX(-100%);
   }
 
+  50% {
+    transform: translateX(-200%);
+  }
+
+  75% {
+    transform: translateX(-300%);
+  }
   100% {
     transform: translateX(0%);
   }
 }
+
+/* Optional: Dots Indicator */
+.slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+.slider-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.slider-dot.active {
+  background-color: #000;
+}
+
 
 /* -----------------------------Home in some about section------------------------------------------------------ */
 

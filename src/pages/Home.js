@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
   return (
@@ -12,10 +14,16 @@ const Home = () => {
       <div className="slider">
         <div className="slides">
           <div className="slide">
-            <img src="/images/red.jpeg" alt="Slide 1" />
+            <img src="/images/firstImage.png" alt="Slide 1" />
           </div>
           <div className="slide">
-            <img src="/images/orange.jpeg" alt="Slide 2" />
+            <img src="/images/red.jpeg" alt="Slide 2" />
+          </div>
+          <div className="slide">
+            <img src="/images/gingerHand.png" alt="Slide 3" />
+          </div>
+          <div className="slide">
+            <img src="/images/gingerFrm.png" alt="Slide 4" />
           </div>
         </div>
       </div>
@@ -37,7 +45,7 @@ const Home = () => {
               from reliable farmers of the industry.
             </p>
             <p>
-              fOur real font of inspiration is our business integrity and crystal clear dealings with our
+              four real font of inspiration is our business integrity and crystal clear dealings with our
               huge client base support which are located over a number of countries. We have successfully
               served our business all over India, Dubai, Oman, Kuwait, Saudi (Gulf Countries), Srilanka,
               Malaysia, Singapre, Indonesia, Philippines, Vietnam (Far East) and World Wide.
@@ -61,37 +69,33 @@ const Home = () => {
             <p>
               This is our most striking product which is cultivated using the best quality seeds and latest processing techniques in complete accordance with the set international standards. With the help of our professionals, we are able to trade, export, wholesale and supply Red Mesh bags and jute Packing Onion. We provide red onion of small size, medium size and big size onion.
             </p>
-            <a href="/onion" className="read-more">
+            <Link to="/onion" className="read-more">
               Read More
-            </a>
+            </Link>
           </div>
 
           <div className="product-card">
             <img src="/images/ginger.png" alt="Product 2" />
             <h3>Ginger</h3>
             <p>
-
               Anti-inflammatory and antioxidant properties: Ginger contains bioactive compounds such as gingerol, which has powerful anti-inflammatory and antioxidant effects.
               Digestive Aid: Ginger is commonly used to relieve nausea, indigestion, and bloating. It is particularly effective in treating morning sickness during pregnancy and nausea caused by chemotherapy or motion sickness.
               Pain Relief: Ginger has been shown to reduce muscle pain and soreness, often used by athletes or those suffering from arthritis.
-
             </p>
-            <a href="/maize" className="read-more">
+            <Link to="/ginger" className="read-more">
               Read More
-            </a>
+            </Link>
           </div>
 
-
-
           <div className="product-card">
-            <img src="/images/mazie.png" alt="Product 3" />
-            <h3>Maize</h3>
+            <img src="/images/garlic.png" alt="Product 3" />
+            <h3>Garlic</h3>
             <p>
-              Maize is known as corn. Fresh yellow maize available in pack in pp bag 45kg to 60kg/ loose.The leafy stalk produces ears which contain the grain,which are seeds called Kernals.
+              Garlic is a perennial that can grow two feet high or more. The most important part of this plant for medicinal purposes is the compound bulb. Each bulb is made up of 4 to 20 cloves, and each clove weighs about 1 gram. Garlic available in three types: 1. Desi Garlic, 2. Ooty Garlic, 3. Rajasthani Garlic, and they divide by size like single clove (kali), 25 to 35mm (medium), 35 to 42mm (ladva), and 42 to above (big laddu).
             </p>
-            <a href="/garlic" className="read-more">
+            <Link to="/garlic" className="read-more">
               Read More
-            </a>
+            </Link>
           </div>
 
 
@@ -101,7 +105,7 @@ const Home = () => {
 
 
       {/* Achivment  */}
-      <div className="achievement-container">
+      {/* <div className="achievement-container">
         <div className="achievement-text">
           <h1>Achievements</h1>
           <h2>Son Of Soil</h2>
@@ -113,11 +117,11 @@ const Home = () => {
         <div className="achievement-image">
           <img src="/images/pawar.png" alt="Son of Soil Award" />
         </div>
-      </div>
+      </div> */}
       {/* Achivment  */}
 
       {/* Onion Sorting Machine Section */}
-      <div className="onion-sorting-container">
+      {/* <div className="onion-sorting-container">
         <div className="onion-text">
           <h2>Onion Sorting Machine</h2>
           <hr className="custom-line" />
@@ -129,28 +133,28 @@ const Home = () => {
         <div className="onion-image">
           <img src="/images/machine.png" alt="Onion Sorting Machine" />
         </div>
-      </div>
+      </div> */}
 
 
       {/* News Section */}
-      <div className="news-section">
+      {/* <div className="news-section">
         <div className="news-container">
           <div className="news-item">
             <img src="/images/news1.png" alt="News 1" className="news-image" />
-            {/* <a href="#" className="read-more">Read More</a> */}
+         
           </div>
 
           <div className="news-item">
             <img src="/images/news2.png" alt="News 2" className="news-image" />
-            {/* <a href="#" className="read-more">Read More</a> */}
+           
           </div>
 
           <div className="news-item">
             <img src="/images/news3.png" alt="News 3" className="news-image" />
-            {/* <a href="#" className="read-more">Read More</a> */}
+           
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* News Section  */}
 

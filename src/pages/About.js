@@ -47,26 +47,34 @@ const About = () => {
         <div class="key-persons-section">
           <h2>Key Persons</h2>
           <div class="key-persons-grid">
+            
             <div class="person-card">
-              <img src="/owners_image/owner1.png" alt="Mr. Suresh Jain" />
-              <h3>Mr. Suresh Jain</h3>
+              <img src="/owners_image/owner1.png" alt="Mr.Rahul Ghorpade" />
+              <h3>Mr.Rahul Ghorpade</h3>
             </div>
             <div class="person-card">
-              <img src="/owners_image/owner2.png" alt="Mr. Manoj Jain" />
-              <h3>Mr. Manoj Jain</h3>
+              <img src="/owners_image/owner2.png" alt="Mr.Sunil Ghorpade" />
+              <h3>Mr.Sunil Ghorpade</h3>
+            </div>
+          
+            <div class="person-card">
+              <img src="/owners_image/owner3.png" alt="Mr.Akshay Ghorpade" />
+              <h3>Mr.Akshay Ghorpade</h3>
             </div>
             <div class="person-card">
-              <img src="/owners_image/owner3.png" alt="Mr. Gaurav Jain" />
-              <h3>Mr. Gaurav Jain</h3>
-            </div>
+              <img src="/owners_image/owner4.png" alt="Mr.Shivraj Shinde" />
+              <h3>Mr.Shivraj Shinde</h3>
+            </div> 
+
             <div class="person-card">
-              <img src="/owners_image/owner4.png" alt="Mr. Kshitij Jain" />
-              <h3>Mr. Kshitij Jain</h3>
-            </div>
+              <img src="/owners_image/owner5.png" alt="Mr.Amol Take" />
+              <h3>Mr.Amol Take</h3>
+            </div> 
+
             <div class="person-card">
-              <img src="/owners_image/owner5.png" alt="Mr. Sagar Jain" />
-              <h3>Mr. Sagar Jain</h3>
-            </div>
+              <img src="/owners_image/owner6.png" alt="Mr.Ajit Garkal" />
+              <h3>Mr.Ajit Garkal</h3>
+            </div> 
           </div>
         </div>
         {/* Key Persons */}

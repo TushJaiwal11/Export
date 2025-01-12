@@ -37,12 +37,11 @@ const Products = () => {
 
 
           <div className="product-card">
-            <img src="/images/mazie.png" alt="Product 3" />
-            <h3>Maize</h3>
+          <img src="/images/garlic.png" alt="Product 3" />
+            <h3>Garlic</h3>
             <p>
-              Maize is known as corn. Fresh yellow maize available in pack in pp bag 45kg to 60kg/ loose.The leafy stalk produces ears which contain the grain,which are seeds called Kernals.
-            </p>
-            <a href="/mazie" className="read-more">
+              Garlic is a perennial that can grow two feet high or more. The most important part of this plant for medicinal purposes is the compound bulb. Each bulb is made up of 4 to 20 cloves, and each clove weighs about 1 gram.Garlic available in three type 1. Desi Garlic 2. Ooty Garliv 3.Rajasthani Garlic and they divide as per size like single clove (kali) 25 to 35mm ( medium) 35 to 42mm (ladva) 42 to above (big laddu) </p>
+            <a href="/garlic" className="read-more">
               Read More
             </a>
           </div>

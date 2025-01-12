@@ -208,7 +208,6 @@ footer {
   margin-bottom: 20px;
 }
 
-
 .slider {
   position: relative;
   width: 100%;
@@ -217,21 +216,21 @@ footer {
   overflow: hidden;
   border: 2px solid #eee;
   border-radius: 10px;
-  padding: 40px;
+  padding: 0; /* Removed padding */
 }
 
 /* Slides Wrapper */
 .slides {
   display: flex;
-  animation: slide 9s infinite;
+  animation: slide 16s infinite; /* Updated duration for smooth transition */
   margin: 0;
   padding: 0;
+  width: 400%; /* Adjusted for 4 slides */
 }
 
 /* Individual Slide */
 .slide {
-  flex: 0 0 100%;
-  /* Each slide takes up 100% width with no gaps */
+  flex: 0 0 25%; /* Each slide takes up 25% width */
   margin: 0;
   padding: 0;
 }
@@ -246,17 +245,22 @@ footer {
 /* Animation for Sliding */
 @keyframes slide {
   0% {
-    transform: translateX(0%);
+    transform: translateX(0%); /* First slide */
   }
-
-  33% {
-    transform: translateX(-100%);
+  25% {
+    transform: translateX(-100%); /* Second slide */
   }
-
+  50% {
+    transform: translateX(-200%); /* Third slide */
+  }
+  75% {
+    transform: translateX(-300%); /* Fourth slide */
+  }
   100% {
-    transform: translateX(0%);
+    transform: translateX(0%); /* Back to first slide */
   }
 }
+
 
 /* -----------------------------Home in some about section------------------------------------------------------ */
 
