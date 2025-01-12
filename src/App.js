@@ -41,6 +41,7 @@ function App() {
 
   return (
     <div className="App">
+      
       {loading ? (
         <div className="loading-wrapper">
           <CircleLoader color="#D0021B" loading={loading} size={100} />

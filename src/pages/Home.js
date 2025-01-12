@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 
+
 const Home = () => {
   return (
     <div className="module">
-      {/* <h2>Welcome to Jain Export</h2>
-      <p>Your trusted partner for world-class quality products.</p> */}
+ 
 
 
 
@@ -69,7 +69,7 @@ const Home = () => {
             <p>
               This is our most striking product which is cultivated using the best quality seeds and latest processing techniques in complete accordance with the set international standards. With the help of our professionals, we are able to trade, export, wholesale and supply Red Mesh bags and jute Packing Onion. We provide red onion of small size, medium size and big size onion.
             </p>
-            <Link to="/onion" className="read-more">
+            <Link to="./onion" className="read-more">
               Read More
             </Link>
           </div>
@@ -82,7 +82,7 @@ const Home = () => {
               Digestive Aid: Ginger is commonly used to relieve nausea, indigestion, and bloating. It is particularly effective in treating morning sickness during pregnancy and nausea caused by chemotherapy or motion sickness.
               Pain Relief: Ginger has been shown to reduce muscle pain and soreness, often used by athletes or those suffering from arthritis.
             </p>
-            <Link to="/ginger" className="read-more">
+            <Link to="./ginger" className="read-more">
               Read More
             </Link>
           </div>
@@ -93,7 +93,7 @@ const Home = () => {
             <p>
               Garlic is a perennial that can grow two feet high or more. The most important part of this plant for medicinal purposes is the compound bulb. Each bulb is made up of 4 to 20 cloves, and each clove weighs about 1 gram. Garlic available in three types: 1. Desi Garlic, 2. Ooty Garlic, 3. Rajasthani Garlic, and they divide by size like single clove (kali), 25 to 35mm (medium), 35 to 42mm (ladva), and 42 to above (big laddu).
             </p>
-            <Link to="/garlic" className="read-more">
+            <Link to="./garlic" className="read-more">
               Read More
             </Link>
           </div>

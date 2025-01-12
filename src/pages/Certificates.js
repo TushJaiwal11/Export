@@ -10,6 +10,7 @@ const Certificates = () => {
           <h1> Certificates </h1>
         </div>
 
+      
         {/* News Section */}
         <div className="news-section">
           <div className="news-container">

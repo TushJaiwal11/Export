@@ -7,6 +7,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <title>Supermoon Traders</title>
+
+    
     <App/>
   </React.StrictMode>
 );
