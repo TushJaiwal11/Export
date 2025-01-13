@@ -1,5 +1,5 @@
 
 [[redirects]]
 from = "/*"
-to ="/inedx.html"
-status =200
+to = "/inedx.html"
+status = 200
